@@ -1,0 +1,50 @@
+rss:
+  ceid: "US:en"
+  max_items_per_query: 10
+
+download:
+  max_articles_per_run: 5
+  store_full_text: true
+  allowed_domains: []
+  blocked_domains:
+    - facebook.com
+    - x.com
+    - twitter.com
+    - linkedin.com
+    - instagram.com
+
+ranking:
+  adverse_terms:
+    - allegation
+    - aml
+    - anti-money laundering
+    - bribery
+    - corruption
+    - controversy
+    - data breach
+    - enforcement
+    - fine
+    - fraud
+    - investigation
+    - lawsuit
+    - money laundering
+    - pollution
+    - regulatory
+    - reputation
+    - risk
+    - sanction
+    - scandal
+    - violation
+  esg_terms:
+    - climate
+    - cyber
+    - disclosure
+    - emissions
+    - environmental
+    - governance
+    - human rights
+    - labor
+    - privacy
+    - safety
+    - social
+    - supply chain

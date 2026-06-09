@@ -1,0 +1,15 @@
+azure-identity
+beautifulsoup4
+chromadb
+feedparser
+googlenewsdecoder
+httpx
+lxml
+openai
+pydantic
+python-dotenv
+pyyaml
+tenacity
+tiktoken
+trafilatura
+truststore

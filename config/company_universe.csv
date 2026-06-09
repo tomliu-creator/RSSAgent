@@ -1,0 +1,5 @@
+company_id,company_name,ticker,country,sector,aliases,subsidiaries
+APG,APG Asset Management,,Netherlands,Asset Management,"APG;APG Asset Management;APG Groep",""
+KKR,KKR & Co. Inc.,KKR,United States,Asset Management,"KKR;Kohlberg Kravis Roberts",""
+MSFT,Microsoft Corporation,MSFT,United States,Technology,"Microsoft;Microsoft Corp","LinkedIn;GitHub;Azure"
+TGT,Target Corporation,TGT,United States,Retail,"Target;Target Corporation;Target Corp;Target stores",""

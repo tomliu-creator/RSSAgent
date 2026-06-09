@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rssagent"
+version = "0.1.0"
+description = "Local ESG controversy RSS agent MVP"
+requires-python = ">=3.10"
+dependencies = [
+  "azure-identity",
+  "beautifulsoup4",
+  "chromadb",
+  "feedparser",
+  "googlenewsdecoder",
+  "httpx",
+  "lxml",
+  "openai",
+  "pydantic",
+  "python-dotenv",
+  "pyyaml",
+  "tenacity",
+  "tiktoken",
+  "trafilatura",
+  "truststore",
+]
+
+[project.scripts]
+rssagent = "rss_agent.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
